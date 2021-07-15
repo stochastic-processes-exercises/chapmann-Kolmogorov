@@ -12,6 +12,10 @@ You can calculate the `n`th power of a matrix, `A`, in python by using the follo
 matpow = np.linalg.matrix_power( A, n )
 `````
 
-Furthermore, you can set the matrix `A` using the `np.array command that we have learned about elsewhere.
+Furthermore, you can set the matrix `A` using the `np.array` command that we have learned about elsewhere.
 
-Your task in this exericse is thus to set a variable called `A` equal to the following 1-step transition probablity matrix.  You must then set the variables `A2`, `A10`, `A50` and `A100` equal to the 2, 10, 50 and 100 step transition probablity matrices respectively.
+Your task in this exericse is thus to set a variable called `A` equal to the following 1-step transition probablity matrix.
+
+![](matrix.png)
+
+You must then set the variables `A2`, `A10`, `A50` and `A100` equal to the 2, 10, 50 and 100 step transition probablity matrices respectively.

@@ -8,9 +8,9 @@ This relationship essentially tells us that the n step transition probablity mat
 
 You can calculate the `n`th power of a matrix, `A`, in python by using the following command:
 
-````
+```python
 matpow = np.linalg.matrix_power( A, n )
-`````
+```
 
 Furthermore, you can set the matrix `A` using the `np.array` command that we have learned about elsewhere.
 

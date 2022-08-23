@@ -2,7 +2,9 @@
 
 In previous exercises you learned how we can estimate the n-step transition probablity matrix from the 1-step transition probability matrix for a Markov chain by sampling.  There is an easier way to calculate the n-step transition probablity matrix, however.  We can exploit the Chapmann-Kolmogorov relationship which gives us the following relationship between the n+m step transition probablity matrix and the n and m step transition probability matrices:
 
-![](https://render.githubusercontent.com/render/math?math=\mathbf{A}^{n%2B\m}=\mathbf{A}^{n}\mathbf{A}^{m})
+$$
+\mathbf{A}^{n+m}=\mathbf{A}^{n}\mathbf{A}^{m}
+$$
 
 This relationship essentially tells us that the n step transition probablity matrix is equal to the nth power of the 1-step transition probablity matrix.
 
